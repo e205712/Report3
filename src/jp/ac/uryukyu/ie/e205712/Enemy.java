@@ -15,18 +15,30 @@ public class Enemy {
     private boolean dead;
 
     String getName(){
+    /**敵の名前の中継
+     * 敵の名前を返す
+     */
         return name;
     }
 
     public int getHitPoint(){
+    /**敵のHPの中継
+     * 敵のHPを返す
+     */
         return hitPoint;
     }
 
     public int getAttack(){
+    /**敵の攻撃力の中継
+     * 敵の攻撃力を返す
+     */
         return attack;
     }
 
     public boolean getDead(){
+    /**敵の生死状態の中継
+     * 敵の生死状態を返す
+     */
         return dead;
     }
 
